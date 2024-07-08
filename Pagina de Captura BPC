@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auxílio BPC/LOAS - Seu Escritório de Advocacia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .form-container {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .form-container button {
+            background: #007BFF;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Auxílio BPC/LOAS</h1>
+        <p>Seu Escritório de Advocacia em Salvador</p>
+    </header>
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos um escritório de advocacia especializado em auxiliar nossos clientes na liberação do BPC/LOAS. Com anos de experiência, estamos aqui para garantir que você receba o benefício a que tem direito.</p>
+        </section>
+        <section id="beneficios">
+            <h2>Benefícios do BPC/LOAS</h2>
+            <ul>
+                <li>Garantia de um salário mínimo mensal</li>
+                <li>Assistência para idosos e pessoas com deficiência</li>
+                <li>Suporte em todo o processo de solicitação</li>
+            </ul>
+        </section>
+        <section id="testemunhos">
+            <h2>Testemunhos</h2>
+            <p>"Graças ao auxílio do escritório, consegui meu benefício rapidamente!" - Maria S.</p>
+            <p>"Recomendo a todos que precisam de auxílio para o BPC/LOAS." - João R.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="form-container">
+                <form action="https://example.com/submit" method="post">
+                    <input type="text" name="nome" placeholder="Seu Nome" required>
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                    <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Seu Escritório de Advocacia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
